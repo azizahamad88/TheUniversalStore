@@ -4,9 +4,10 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 16.0.810.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{FE13144F-6065-44B5-B6C4-11CE16B1EEDA}"
-	ProjectSection(SolutionItems) = preProject
-		new.html = new.html
-	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{3E3C65D7-9D07-41F9-9049-D8433DB13ACC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Catalog", "Catalog", "{0B9255D4-7BF1-48AA-A346-9970E8784B9A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,5 +19,8 @@ Global
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {53484362-90E0-42C2-B100-CBB072C68CFE}
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0B9255D4-7BF1-48AA-A346-9970E8784B9A} = {3E3C65D7-9D07-41F9-9049-D8433DB13ACC}
 	EndGlobalSection
 EndGlobal
